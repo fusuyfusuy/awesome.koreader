@@ -1,9 +1,9 @@
 # Awesome KOReader 🚀
 
 [![KOReader Plugins](https://img.shields.io/badge/KOReader-Plugins-blue.svg)](PLUGINS.md)
-[![Total Tracked](https://img.shields.io/badge/Total%20Tracked-1038%20Items-brightgreen.svg)](plugins.json)
-[![Plugins](https://img.shields.io/badge/Plugins-901-informational.svg)](PLUGINS.md)
-[![User Patches](https://img.shields.io/badge/User%20Patches-131-orange.svg)](PLUGINS.md#user-patch-collections)
+[![Total Tracked](https://img.shields.io/badge/Total%20Tracked-1126%20Items-brightgreen.svg)](plugins.json)
+[![Plugins](https://img.shields.io/badge/Plugins-1011-informational.svg)](PLUGINS.md)
+[![User Patches](https://img.shields.io/badge/User%20Patches-111-orange.svg)](PLUGINS.md#user-patch-collections)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-success.svg)](https://github.com/fusuyfusuy/awesome.koreader/pulls)
 
@@ -13,7 +13,7 @@ A comprehensive, automated, deduplicated master registry and architectural refer
 
 ## 📖 Quick Links
 
-- 📋 **[Full Categorized Plugin Directory (PLUGINS.md)](PLUGINS.md)** — All 1,038 plugins & tools with stars, authors, descriptions, and source tags.
+- 📋 **[Full Categorized Plugin Directory (PLUGINS.md)](PLUGINS.md)** — All 1,126 plugins & tools with stars, authors, descriptions, and source tags.
 - 💾 **[Machine-Readable Database (plugins.json)](plugins.json)** — Complete JSON dataset for scripts, parsers, and custom in-app stores.
 - ⚙️ **[How This Catalog Was Created](#-how-this-repository-was-created)** — Automated discovery, scraping, and crawling pipeline.
 - 🔍 **[KOReader Discovery Architecture](#-koreader-plugin-discovery-architecture-storify--appstore)** — Deep dive into how in-app plugin stores (`storify.koplugin`) discover, parse, match, and update plugins.
@@ -24,29 +24,29 @@ A comprehensive, automated, deduplicated master registry and architectural refer
 ## 📊 Catalog Overview & Category Breakdown
 
 ```
-Total Tracked Entries: 1,038
-├── 🔌 Plugins (Official, Community, Contrib): 901
-├── 🧩 User Patch Collections & Tweaks: 131
-└── 🖥️ Companion Tools & Sync Servers: 6
+Total Tracked Entries: 1,126
+├── 🔌 Plugins (Official, Community, Contrib): 1,011
+├── 🧩 User Patch Collections & Tweaks: 111
+└── 🖥️ Companion Tools & Sync Servers: 4
 ```
 
 | Category | Count | Highlight Examples |
 | :--- | :---: | :--- |
-| **[🛠️ Utilities & Workflow Tools](PLUGINS.md#utilities-workflow-tools)** | `497` | Terminal emulators, text/code editors, QR clipboards, HTTP inspectors, folder locks |
-| **[🧩 User Patch Collections](PLUGINS.md#user-patch-collections)** | `131` | User patch scripts and visual mod suites for KOReader's patch loader |
-| **[🔄 Sync, Cloud & File Transfer](PLUGINS.md#sync-cloud-file-transfer)** | `74` | Syncthing, Nextcloud, WebDAV, LocalSend, Tailscale, Dropbox, WireGuard, Calibre sync |
-| **[🎮 Games & Entertainment](PLUGINS.md#games-entertainment)** | `60` | Chess, Sudoku, Solitaire, Sokoban, 2048, Crosswords, Frotz interactive fiction |
-| **[✍️ Notes, Highlights & Flashcards](PLUGINS.md#notes-highlights-flashcards)** | `59` | Highlights export to Obsidian, Anki, Notion, Readwise, Joplin, Flomo, Telegram |
-| **[🖼️ UI, Themes & Customization](PLUGINS.md#ui-themes-customization)** | `35` | Custom home screens (ProjectTitle, SimpleUI, Zen UI), custom menus, screensavers |
-| **[🤖 AI & Intelligent Assistants](PLUGINS.md#ai-intelligent-assistants)** | `32` | LLM reading assistants (Claude, GPT, Ollama, DeepSeek, Gemini, X-Ray) |
-| **[🎨 Comics, Manga & Graphic Novels](PLUGINS.md#comics-manga-graphic-novels)** | `29` | Panels+, Rakuyomi manga fetcher, dual-page mode, CBZ/CBR enhancers |
-| **[⚡ Hardware, Device & Controls](PLUGINS.md#hardware-device-controls)** | `26` | Bluetooth gamepads/remotes, frontlight automation, battery monitors, hardware keys |
-| **[📚 Book Discovery & Library Catalogs](PLUGINS.md#book-discovery-library-catalogs)** | `24` | OPDS catalogs, Z-Library, Zotero, Calibre content server, automated book downloaders |
-| **[🌐 Dictionaries & Translation](PLUGINS.md#dictionaries-translation)** | `24` | Offline neural translation, StarDict pre-loaders, multilingual lookup, Japanese furigana |
+| **[🛠️ Utilities & Workflow Tools](PLUGINS.md#utilities-workflow-tools)** | `552` | Terminal emulators, text/code editors, QR clipboards, HTTP inspectors, folder locks |
+| **[🧩 User Patch Collections](PLUGINS.md#user-patch-collections)** | `111` | User patch scripts and visual mod suites for KOReader's patch loader |
+| **[🔄 Sync, Cloud & File Transfer](PLUGINS.md#sync-cloud-file-transfer)** | `77` | Syncthing, Nextcloud, WebDAV, LocalSend, Tailscale, Dropbox, WireGuard, Calibre sync |
+| **[✍️ Notes, Highlights & Flashcards](PLUGINS.md#notes-highlights-flashcards)** | `66` | Highlights export to Obsidian, Anki, Notion, Readwise, Joplin, Flomo, Telegram |
+| **[🎮 Games & Entertainment](PLUGINS.md#games-entertainment)** | `65` | Chess, Sudoku, Solitaire, Sokoban, 2048, Crosswords, Frotz interactive fiction |
+| **[🖼️ UI, Themes & Customization](PLUGINS.md#ui-themes-customization)** | `43` | Custom home screens (ProjectTitle, SimpleUI, Zen UI), custom menus, screensavers |
+| **[🤖 AI & Intelligent Assistants](PLUGINS.md#ai-intelligent-assistants)** | `38` | LLM reading assistants (Claude, GPT, Ollama, DeepSeek, Gemini, X-Ray) |
+| **[📚 Book Discovery & Library Catalogs](PLUGINS.md#book-discovery-library-catalogs)** | `37` | OPDS catalogs, Z-Library, Zotero, Calibre content server, automated book downloaders |
+| **[🎨 Comics, Manga & Graphic Novels](PLUGINS.md#comics-manga-graphic-novels)** | `32` | Panels+, Rakuyomi manga fetcher, dual-page mode, CBZ/CBR enhancers |
+| **[⚡ Hardware, Device & Controls](PLUGINS.md#hardware-device-controls)** | `30` | Bluetooth gamepads/remotes, frontlight automation, battery monitors, hardware keys |
+| **[🌐 Dictionaries & Translation](PLUGINS.md#dictionaries-translation)** | `25` | Offline neural translation, StarDict pre-loaders, multilingual lookup, Japanese furigana |
+| **[📰 RSS & Read-It-Later](PLUGINS.md#rss-read-it-later)** | `20` | QuickRSS, Wallabag, Instapaper, Readeck, Omnivore |
 | **[📊 Reading Stats, Tracking & Goals](PLUGINS.md#reading-stats-tracking-goals)** | `18` | Reading timers, streaks, gamification (ReadMastery), speed analytics |
-| **[📰 RSS & Read-It-Later](PLUGINS.md#rss-read-it-later)** | `16` | QuickRSS, Wallabag, Instapaper, Readeck, Omnivore |
-| **[📖 Reading & Typography](PLUGINS.md#reading-typography)** | `7` | Vertical text rendering (Tategumi), reading rulers, speed reading, autoturn |
-| **[🖥️ Companion Tools & Sync Servers](PLUGINS.md#companion-tools-sync-servers)** | `6` | Desktop dashboards (KoInsight, KoHighlights), self-hosted sync backends |
+| **[📖 Reading & Typography](PLUGINS.md#reading-typography)** | `8` | Vertical text rendering (Tategumi), reading rulers, speed reading, autoturn |
+| **[🖥️ Companion Tools & Sync Servers](PLUGINS.md#companion-tools-sync-servers)** | `4` | Desktop dashboards (KoInsight, KoHighlights), self-hosted sync backends |
 
 👉 **Browse the full catalog with links and star counts in [PLUGINS.md](PLUGINS.md)**.
 

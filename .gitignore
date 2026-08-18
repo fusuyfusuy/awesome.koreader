@@ -1,6 +1,6 @@
 # Development and internal tooling
 .agents/
-scripts/
+/scripts/
 
 # Python & Environment
 __pycache__/
