@@ -1,0 +1,15 @@
+# Development and internal tooling
+.agents/
+scripts/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+
+# System & temporary
+.DS_Store
+*.tmp
+*.log
