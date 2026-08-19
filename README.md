@@ -1,3 +1,5 @@
+> **This project is not maintained.**
+
 # Awesome KOReader 🚀
 
 [![KOReader Plugins](https://img.shields.io/badge/KOReader-Plugins-blue.svg)](PLUGINS.md)
