@@ -78,6 +78,12 @@ flowchart LR
 | **📦 Official KOReader Repositories** | **`123`** | **`38`** | Core plugins shipped inside `koreader/koreader` (36) + `koreader/contrib` catalog (87). |
 | **⭐ Awesome-KOReader Curated List** | **`52`** | **`11`** | Manually curated list from [`jannick-holm/awesome-koreader`](https://github.com/jannick-holm/awesome-koreader). |
 
+### Self-Updating Catalog via GitHub Actions (technique reference)
+
+The catalog was designed to refresh itself with no server or maintainer in the loop: [`.github/workflows/update.yml`](.github/workflows/update.yml) runs [`.github/scripts/crawl.py`](.github/scripts/crawl.py) and commits `plugins.json`/`PLUGINS.md` back to `main` only when the crawl actually produces a diff (`git diff --staged --quiet` guards the commit/push step so a no-op run doesn't create empty commits). This is a reusable pattern for any repo that wants to stay current against an external data source without external infrastructure — checkout, run your generator, commit-if-changed, push, all inside the Action's own `GITHUB_TOKEN` permissions.
+
+The workflow is kept in the repo as a reference for that technique, but is **not scheduled** — this project is unmaintained, so it only runs if someone triggers it manually from the Actions tab (`workflow_dispatch`).
+
 ---
 
 ## 🔍 KOReader Plugin Discovery Architecture (Storify / AppStore)

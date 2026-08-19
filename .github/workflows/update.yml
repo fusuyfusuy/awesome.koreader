@@ -1,8 +1,9 @@
-name: Weekly Plugin Catalog Update
+name: Plugin Catalog Update (manual)
 
+# Kept as a reference technique for self-updating catalog repos, but not
+# scheduled -- this project is unmaintained, so it only runs if someone
+# triggers it by hand from the Actions tab.
 on:
-  schedule:
-    - cron: '0 3 * * 0' # Every Sunday at 03:00 UTC
   workflow_dispatch:
 
 permissions:
